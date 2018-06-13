@@ -1,2 +1,3 @@
 # swiftjs-wrapper
-A light weight wrapper to call Javascript functions / objects from swift
+
+A description of this package.

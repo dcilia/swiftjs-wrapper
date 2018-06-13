@@ -13,9 +13,6 @@ public struct MyModule : JavascriptModule {
 
     public func call<FunctionName, ReturnType, Arguments>(name: FunctionName, args: Arguments, onObject: Any?) throws -> ReturnType {
 
-
-        print("The wrong call function was called.")
-
         throw JSBridgeError.couldNotInitialize
     }
 
@@ -44,4 +41,8 @@ public struct MyModule : JavascriptModule {
     }
 }
 
-
+struct Person : Codable {
+    let name : String
+    let email : String
+    let phone : String
+}
