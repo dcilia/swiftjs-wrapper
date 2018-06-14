@@ -21,7 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		660386D620CFEB990065B495 /* bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 660386D520CFEB990065B495 /* bundle.js */; };
+		666B91D520D2796F00542E78 /* bundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 666B91D420D2796F00542E78 /* bundle.js */; };
 		OBJ_26 /* ErrorTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* ErrorTypes.swift */; };
 		OBJ_27 /* Javascript.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Javascript.swift */; };
 		OBJ_28 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Loader.swift */; };
@@ -51,7 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		660386D520CFEB990065B495 /* bundle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = bundle.js; path = "../_apps/swiftjs-wrapper/Resources/bundle.js"; sourceTree = "<group>"; };
+		666B91D420D2796F00542E78 /* bundle.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = bundle.js; path = Resources/bundle.js; sourceTree = "<group>"; };
 		OBJ_10 /* Javascript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Javascript.swift; sourceTree = "<group>"; };
 		OBJ_11 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
@@ -111,16 +111,15 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
-				660386D520CFEB990065B495 /* bundle.js */,
+				666B91D420D2796F00542E78 /* bundle.js */,
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_13 /* Tests */,
 				OBJ_18 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -209,7 +208,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_18 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -227,7 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660386D620CFEB990065B495 /* bundle.js in Resources */,
+				666B91D520D2796F00542E78 /* bundle.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
